@@ -1,0 +1,38 @@
+/* top right helper */
+.shortcode_helper{
+		position:fixed;
+		top:50px;
+		right:0px;
+		z-index:10000;
+	}
+	.shortcode_helper .info_icon{
+		    float: left;
+		/* background: #fff; */
+		color: #0044cc;
+		padding: 10px;
+		cursor: pointer;
+		opacity: 0.3;
+	}
+	.shortcode_helper .info_icon .show_info_block{
+		font-size:30px;
+	}
+	.shortcode_helper .info_data{
+		float:left;
+		padding:5px;
+		background:#fff;
+		display:none;
+		border-radius:5px;
+		-webkit-box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.75);
+		box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.75);
+	}
+	.shortcode_helper .help_table tr td, .shortcode_helper .help_table tr th{
+		padding:5px;
+		font-size:12px;
+	}
+/* top right helper end */
+/* admin bar helper */
+#wpcontent #wpadminbar li#wp-admin-bar-shortcut_node{
+	display:block;
+}
+/* admin bar helper END */

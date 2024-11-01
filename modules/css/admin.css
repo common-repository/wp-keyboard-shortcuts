@@ -1,0 +1,32 @@
+.tw-bs input[type=checkbox] {
+	width:15px !important;
+	height:15px !important;
+}
+.tw-bs input[type=radio]{
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 10px !important;
+}
+.tw-bs .form-horizontal .editor_table .second_stage_picker{
+	display:none;
+}
+.tw-bs .form-horizontal  .editor_table .second_stage_picker:first-child{
+	display:block;
+}
+.editor_table .hasPair{
+	    background-color: #ffdede !important;
+}
+
+
+#adminmenu .link_conbination_helper{
+	position:absolute;
+	top:5px;
+	right:10px;
+	font-size:11px;
+	color:#fff;
+}
+.info_cont{
+	color: #5fbff7;
+}
+ 
+	
